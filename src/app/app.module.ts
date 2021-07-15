@@ -1,28 +1,35 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule} from '@angular/common/http';
 
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ReactiveFormsModule } from '@angular/forms';
-import { AlumnosService } from './alumnos/alumnos.service'; 
-import { AltaAlumnoComponent } from './alumnos/alta-alumno/alta-alumno.component';
-import { ListaAlumnosComponent } from './alumnos/lista-alumnos/lista-alumnos.component'; 
-import { DetalleAlumnoComponent } from './alumnos/detalle-alumno/detalle-alumno.component';
+
+import { CartComponent } from './shared/components/cart/cart.component';
+import { LayoutComponent } from './layout/layout.component';
+
+import { SharedModule } from './shared/shared.module';
+import { CoreModule } from './core/core.module';
+
 @NgModule({
   declarations: [
     AppComponent,
-    AltaAlumnoComponent,
-    ListaAlumnosComponent,
-    DetalleAlumnoComponent
+    CartComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
+    FormsModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    SharedModule,
+    CoreModule,
+    HttpClientModule
   ],
-  providers: [AlumnosService],
-  bootstrap: [AppComponent]
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
