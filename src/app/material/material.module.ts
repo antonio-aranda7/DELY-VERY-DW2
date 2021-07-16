@@ -42,6 +42,7 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatSortModule,
     MatFormFieldModule,
     MatStepperModule
+    MatFormFieldModule
   ],
   exports: [
     MatButtonModule,

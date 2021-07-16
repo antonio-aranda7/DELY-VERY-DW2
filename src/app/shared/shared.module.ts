@@ -19,8 +19,7 @@ import {MaterialModule} from './../material/material.module';
     HighlightDirective,
     HeaderComponent,
     FooterComponent,
-    CartComponent,
-
+    CartComponent
   ],
   imports: [
     CommonModule,
