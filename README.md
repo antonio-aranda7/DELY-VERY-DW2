@@ -1,17 +1,4 @@
 # DELYVERYDW2
-Este proyecto de algular es sobre una aplicacion demos que consume una api publica y tambien preparada apra una api local
-http://localhost/api.DELY_VERY.com
-
-esta url la intercambiamos por la api puclica en la carpeta "enviroment"
-
-de otro proyecto de api.DELY_VERY.com el cual podra obtener los datos y crear nuevos, el problema esta en las imagnes para actualizar y borrar deja el registro de imagnes en local
-
-la pagina principal es home que contiene un carruse d eimagenses, en productos mustra loq ue consume de la api y pinta el arreglo de productos los cuale spodemos agregar a un carrito, visulaizar el contenido de este carrito y obtener el detalle de cada objeto o card pintada
-
-http://localhost:4200/admin
-en admin podemos en al pestaña de "Productos" podemos editar y eliminarproductos d ela api publica del carrito, esto en el admin
-
-tambien tiene uan pagina para las rutas no identificada con error 404
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 

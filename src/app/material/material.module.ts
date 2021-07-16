@@ -18,7 +18,6 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatCard } from '@angular/material/card';
-import { MatStepperModule } from '@angular/material/stepper';
 
 @NgModule({
   declarations: [],
@@ -40,9 +39,12 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatPaginatorModule, 
     MatTableModule,
     MatSortModule,
+<<<<<<< HEAD
+    MatFormFieldModule
+=======
     MatFormFieldModule,
     MatStepperModule
-    MatFormFieldModule
+>>>>>>> parent of 005fb6c (Merge branch 'master' into JAAC)
   ],
   exports: [
     MatButtonModule,
@@ -61,8 +63,7 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatPaginatorModule,
     MatTableModule,
     MatSortModule,
-    MatFormFieldModule,
-    MatStepperModule
+    MatFormFieldModule
   ],
 })
 export class MaterialModule {}
