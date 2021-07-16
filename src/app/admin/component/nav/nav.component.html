@@ -8,6 +8,7 @@
       <a mat-list-item routerLink= "/admin/create">Crear Producto</a>
       <a mat-list-item routerLink="/admin">Home</a>
       <a mat-list-item routerLink="/admin/table">Inventario</a>
+      <a mat-list-item routerLink="/admin/products">Productos</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -18,7 +19,7 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon"><Menu:c></Menu:c></mat-icon>
+        <mat-icon aria-label="Side nav toggle icon"> menu <Menu:c></Menu:c></mat-icon>
       </button>
       <span>DELY-VERY-DW2</span>
     </mat-toolbar>

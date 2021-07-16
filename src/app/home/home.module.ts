@@ -17,7 +17,7 @@ import {SharedModule} from './../shared/shared.module';
   imports: [
     HomeRoutingModule,
     CommonModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class HomeModule {
