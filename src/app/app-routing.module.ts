@@ -42,6 +42,7 @@ const routes: Routes = [
         (m) => m.PageNotFoundModule
       ),
   },
+
 ];
 
 @NgModule({
@@ -51,3 +52,8 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+/*
+PreloadAllModules
+--Proporciona una estrategia de precarga que precarga todos los módulos lo más rápido posible.
+*/
