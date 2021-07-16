@@ -18,6 +18,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 
+import { ProductEditComponent } from './component/product-edit/product-edit.component';
+
 @NgModule({
   declarations: [
       ProductFormComponent, 
@@ -26,6 +28,8 @@ import { MatCardModule } from '@angular/material/card';
       TableComponent,
      ProductsListComponent,
      FormProductComponent,
+     ProductEditComponent,
+
     ],
   imports: [
     CommonModule,

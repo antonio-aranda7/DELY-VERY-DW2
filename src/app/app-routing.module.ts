@@ -28,6 +28,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('./contact/contact.module').then((m) => m.ContactModule),
       },
+      {
+        path: 'order',
+        loadChildren: () =>
+          import('./order/order.module').then((m) => m.OrderModule),
+      },
     ],
   },
   {
@@ -42,7 +47,6 @@ const routes: Routes = [
         (m) => m.PageNotFoundModule
       ),
   },
-
 ];
 
 @NgModule({
@@ -52,8 +56,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-/*
-PreloadAllModules
---Proporciona una estrategia de precarga que precarga todos los módulos lo más rápido posible.
-*/

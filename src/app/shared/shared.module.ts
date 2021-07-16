@@ -12,6 +12,7 @@ import { CartComponent } from './components/cart/cart.component';
 
 import {MaterialModule} from './../material/material.module';
 
+
 @NgModule({
   declarations: [
     ExponentialPipe,
