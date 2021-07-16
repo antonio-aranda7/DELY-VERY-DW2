@@ -6,23 +6,21 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { CartComponent } from './shared/components/cart/cart.component';
 import { LayoutComponent } from './layout/layout.component';
 
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
-    CartComponent,
     LayoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     FormsModule,
     BrowserAnimationsModule,
     SharedModule,

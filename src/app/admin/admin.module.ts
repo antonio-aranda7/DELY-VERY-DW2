@@ -10,21 +10,36 @@ import { NavComponent } from './component/nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { TableComponent } from './component/table/table.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
-import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort';
+import { ProductsListComponent } from './component/products-list/products-list.component';
+import { FormProductComponent } from './component/form-product/form-product.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCardModule } from '@angular/material/card';
+import { ProductEditComponent } from './component/product-edit/product-edit.component';
 
 @NgModule({
-  declarations: [ProductFormComponent, NavComponent, DashboardComponent, TableComponent],
+  declarations: [
+      ProductFormComponent, 
+      NavComponent, 
+      DashboardComponent, 
+      TableComponent,
+     ProductsListComponent,
+     FormProductComponent,
+     ProductEditComponent,
+    ],
   imports: [
     CommonModule,
     AdminRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
     LayoutModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule
+    MatInputModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatCardModule,
   ]
 })
 export class AdminModule { }
