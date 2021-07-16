@@ -20,7 +20,6 @@ export class ProductsService {
   
   getAllProducts (){
     return this.http.get<Product[]>(`${environment.url_api}`);
-    //:observable<Produc[]>
   }
 
   getProduct(id:string){

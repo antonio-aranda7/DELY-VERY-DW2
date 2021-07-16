@@ -11,6 +11,8 @@ import { LayoutComponent } from './layout/layout.component';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,6 @@ import { CoreModule } from './core/core.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     FormsModule,
     BrowserAnimationsModule,
     SharedModule,

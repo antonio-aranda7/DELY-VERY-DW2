@@ -17,10 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
-<<<<<<< HEAD
-=======
 import { ProductEditComponent } from './component/product-edit/product-edit.component';
->>>>>>> parent of 005fb6c (Merge branch 'master' into JAAC)
 
 @NgModule({
   declarations: [
@@ -30,10 +27,7 @@ import { ProductEditComponent } from './component/product-edit/product-edit.comp
       TableComponent,
      ProductsListComponent,
      FormProductComponent,
-<<<<<<< HEAD
-=======
      ProductEditComponent,
->>>>>>> parent of 005fb6c (Merge branch 'master' into JAAC)
     ],
   imports: [
     CommonModule,
